@@ -1,30 +1,3 @@
-// Copyright (C) 2017-2022 eelDev AB
-
-using UnrealBuildTool;
-
-public class SteamCoreWeb : ModuleRules
-{
-	public SteamCoreWeb(ReadOnlyTargetRules Target) : base(Target)
-	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		PrivatePCHHeaderFile = "Private/SteamCoreWeb/SteamCoreWebPluginPrivatePCH.h";
-
-		PrivateDependencyModuleNames.AddRange
-		(
-			new[]
-			{
-				"Core",
-				"CoreUObject",
-				"Engine",
-				"Projects",
-				"OnlineSubsystem",
-				"HTTP",
-				"Json",
-				"JsonUtilities",
-			}
-		);
-
-		if (Target.Version.MinorVersion >= 26 || Target.Version.MajorVersion == 5)
-			PrivateDependencyModuleNames.Add("DeveloperSettings");
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c78cf6dfafe4eabf1817ae0fbf1796add1fa338c87621d46ddef88798c8dbf7
+size 640

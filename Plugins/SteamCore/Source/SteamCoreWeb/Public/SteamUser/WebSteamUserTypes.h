@@ -1,25 +1,3 @@
-/**
-* Copyright (C) 2017-2022 eelDev AB
-*
-* Official SteamCore::Web Documentation: https://eeldev.com/index.php/steamcoreweb-plugin/
-*
-* Methods to improve the administration of Steam Game Servers.
-* https://partner.steamgames.com/doc/webapi/ISteamUser
-*/
-
-#pragma once
-
-#include "CoreMinimal.h"
-#include "SteamCoreWeb/SteamCoreWeb.h"
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
-//		Enums
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
-
-UENUM(BlueprintType)
-enum class EVanityUrlType : uint8
-{
-	Individual,
-	Group,
-	OfficialGameGroup
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:19fca2493f9baffa1a030557bf694893a04d612a382261dceed30a85bb9d435c
+size 685

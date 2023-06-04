@@ -1,24 +1,3 @@
-/**
-* Copyright (C) 2017-2022 eelDev AB
-*
-* Official SteamCoreWeb Documentation: https://eeldev.com
-*/
-
-#include <CoreMinimal.h>
-#include <Engine/Engine.h>
-#include <Engine/GameInstance.h>
-#include <Engine/World.h>
-#include <HAL/RunnableThread.h>
-#include <Misc/ConfigCacheIni.h>
-#include <OnlineSubsystem.h>
-#include <Subsystems/GameInstanceSubsystem.h>
-#include <Async/TaskGraphInterfaces.h>
-#include <Containers/Ticker.h>
-#include <TimerManager.h>
-#include <Net/OnlineBlueprintCallProxyBase.h>
-#include <Http.h>
-#include <Serialization/JsonWriter.h>
-#include <Dom/JsonObject.h>
-#include <Serialization/JsonSerializer.h>
-#include <Policies/CondensedJsonPrintPolicy.h>
-#include <Misc/EngineVersionComparison.h>
+version https://git-lfs.github.com/spec/v1
+oid sha256:22da91ac15d5fa1dfda6603481b802b63c837b9ef0d76c69592fd69d2244af8d
+size 712

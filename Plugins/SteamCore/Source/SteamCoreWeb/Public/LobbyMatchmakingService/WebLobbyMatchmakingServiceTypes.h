@@ -1,25 +1,3 @@
-/**
-* Copyright (C) 2017-2022 eelDev AB
-*
-* Official SteamCore::Web Documentation: https://eeldev.com/index.php/steamcoreweb-plugin/
-*
-* Provides access to the Steam Lobby methods.
-* https://partner.steamgames.com/doc/webapi/ILobbyMatchmakingService
-*/
-
-#pragma once
-
-#include "CoreMinimal.h"
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
-//		Enums
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
-// lobby type description
-UENUM(BlueprintType)
-enum class ESteamCoreWebLobbyType : uint8
-{
-	Private = 0,
-	FriendsOnly = 1,
-	TypePublic = 2,
-	TypeInvisible = 3,
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:9e11ce0b0a6a378b5048b108145196c85104eb7cee9a31f1115b00204cd25487
+size 705

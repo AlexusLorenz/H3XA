@@ -1,36 +1,3 @@
-/**
-* Copyright (C) 2017-2022 eelDev AB
-*
-* Official SteamCore::Web Documentation: https://eeldev.com/index.php/steamcoreweb-plugin/
-*
-* Provides access to Steam broadcasts.
-* https://partner.steamgames.com/doc/webapi/IBroadcastService
-*
-* For more info on how to use the Steamworks Web API please see the Web API Overview.
-* https://partner.steamgames.com/doc/webapi_overview
-*/
-
-#include "BroadcastService/WebBroadcastService.h"
-#include "BroadcastService/WebBroadcastServiceAsyncTasks.h"
-#include "SteamCoreWeb/SteamCoreWebPluginPrivatePCH.h"
-
-void UWebBroadcastService::Initialize(FSubsystemCollectionBase& Collection)
-{
-	Super::Initialize(Collection);
-}
-
-void UWebBroadcastService::Deinitialize()
-{
-	Super::Deinitialize();
-}
-
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
-//		Steam API Functions
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
-
-
-void UWebBroadcastService::PostGameDataFrame(const FOnSteamCoreWebCallback& Callback, FString Key, int32 AppID, FString SteamID, FString BroadcastId, FString FrameData)
-{
-	FOnlineAsyncTaskSteamCoreWebBroadcastPostGameDataFrame* Task = new FOnlineAsyncTaskSteamCoreWebBroadcastPostGameDataFrame(this, Callback, Key, AppID, SteamID, BroadcastId, FrameData);
-	QueueAsyncTask(Task);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:be29339560c621f3eee2369ffeb660a5e984079e22115b3d229fa59b03ea54c8
+size 1376
